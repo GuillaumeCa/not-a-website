@@ -13,8 +13,8 @@
     </header>
     <h1>not a website :x</h1>
     <div id="content">
-      <a href="/arnaud.php" style="float:left;">Page de batarr</a>
-      <a href="/guillaume.php" style="float:right;"> Page de swaggy</a>
+      <a href="arnaud" style="float:left;">Page de batarr</a>
+      <a href="guillaume" style="float:right;"> Page de swaggy</a>
     </div>
 
     <footer>
