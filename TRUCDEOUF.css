@@ -55,6 +55,15 @@
   transition:all 1s ease;
 }
 
-.bg-vid :hover{
+.bg-vid:hover{
+  -webkit-filter: sepia(0.3);
+  -moz-filter: sepia(0.3);
   filter: sepia(0.3);
+}
+
+#lol {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  z-index: 9999;
 }

@@ -11,14 +11,23 @@
 
     </header>
 
-    <video src="Media/lol.mov" autoplay class="bg-vid" loop="true"></video>
+    <video src="Media/VideoDeOuf.mp4" autoplay class="bg-vid" loop="true"></video>
 
     <div class="content">
       <a href="arnaud" style="float:left;">Page de ouf :o</a>
       <a href="guillaume" style="float:right;"> Page de swaggy :D</a>
       <p> akzrjbazojrazr</p>
-
+      <span id="lol" style="position: absolute">YOLLLLLOOOOO!!!!!!</span>
     </div>
 
+    <script>
+      document.onmousemove = trackmouse;
+
+      function trackmouse(e) {
+        var test = document.getElementById('lol');
+        test.style.top = e.clientY.toString()+"px";
+        test.style.left = e.clientX.toString()+"px";
+      }
+    </script>
   </body>
 </html>
