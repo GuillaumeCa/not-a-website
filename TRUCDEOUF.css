@@ -52,4 +52,9 @@
   height: 100%;
   z-index: -1;
   object-fit: cover;
+  transition:all 1s ease;
+}
+
+.bg-vid :hover{
+  filter: sepia(0.3);
 }
