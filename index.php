@@ -7,6 +7,11 @@
 
   </head>
   <body>
+
+    <video src="Media/VideoDeOuf.mp4" autoplay class="bg-vid">
+
+    </video>
+
     <header>
 
     </header>
@@ -17,9 +22,6 @@
       <p> akzrjbazojrazr</p>
 
     </div>
-
-    <footer>
-    </footer>
 
   </body>
 </html>
