@@ -16,6 +16,8 @@
     <div class="content">
       <a href="arnaud" style="float:left;">Page de ouf :o</a>
       <a href="guillaume" style="float:right;"> Page de swaggy :D</a>
+
+
     </div>
 
     <footer>
