@@ -11,11 +11,10 @@
     <header>
 
     </header>
-    <h1>not a website :x</h1>
 
     <div class="content">
       <a href="arnaud" style="float:left;">Page de ouf :o</a>
-      <a href="guillaume" style="float:right;"> Page de swaggy :D</a>
+      <a href="guillaume" style="float:right;"> Page de swaggy :D</a></br></br></br>
       <p> akzrjbazojrazr</p>
 
     </div>
