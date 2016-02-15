@@ -11,20 +11,13 @@
     <header>
 
     </header>
-<<<<<<< HEAD
 
-    <div class="content">
-      <a href="/arnaud.php" style="float:left;">Page de ouf :o</a>
-      <a href="/guillaume.php" style="float:right;"> Page de swaggy :D</a>
-=======
     <h1>not a website :x</h1>
-    <div id="content">
+    <div class="content">
       <ul>
         <li><a href="arnaud" style="float:left;">Page de batarr</a></li>
         <li><a href="guillaume" style="float:right;"> Page de swaggy</a></li>
       </ul>
-
->>>>>>> origin/master
     </div>
 
     <footer>
