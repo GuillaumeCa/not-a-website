@@ -12,10 +12,12 @@
 
     <?php
     if (isset($_GET['image'])) {
-      $image = $_GET['image'];?>
+      $image = $_GET['image'];
+      ?>
       <img src="<?php echo $image ?>" alt="lol" width="300px" />
-    <?php}
-    ?>
+    <?php
+  }
+?>
 
 
   </body>
