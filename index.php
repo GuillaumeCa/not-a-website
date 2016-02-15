@@ -7,6 +7,7 @@
 
   </head>
   <body>
+<<<<<<< HEAD
 
     <video src="Media/VideoDeOuf.mp4" autoplay class="bg-vid">
 
@@ -15,6 +16,11 @@
     <header>
 
     </header>
+=======
+    <video src="lien de la vidéo :P" autoplay class="bg-vid">
+    </video>
+    <h1>not a website :x</h1>
+>>>>>>> 4d1e1ee5d5c4d00700d4bd4b24fdc89ad0a4312e
 
     <div class="content">
       <a href="arnaud" style="float:left;">Page de ouf :o</a>
