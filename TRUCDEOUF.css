@@ -1,8 +1,20 @@
-.content{
+.content a{
   display:inline-block;
-  display:none;
+  font-size:50px;
+  color:rgb(16, 205, 124);
+  text-decoration: none;
+  transition: all 1s ease;
+}
+
+.content a:hover{
+  display:inline-block;
+  font-size:50px;
+  color:rgb(147, 233, 204);
+  text-decoration: none;
+  transform:rotateX(180deg);
 }
 
 .content{
-  display:none;
+  margin: 0 20%;
+  padding-top:20%;
 }

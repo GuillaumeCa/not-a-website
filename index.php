@@ -11,9 +11,9 @@
 
     </header>
 
-    <div id="content">
-      <a href="/arnaud.php" style="float:left;">Page de batarr</a>
-      <a href="/guillaume.php" style="float:right;"> Page de swaggy</a>
+    <div class="content">
+      <a href="/arnaud.php" style="float:left;">Page de ouf :o</a>
+      <a href="/guillaume.php" style="float:right;"> Page de swaggy :D</a>
     </div>
 
     <footer>
