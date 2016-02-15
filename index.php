@@ -10,9 +10,8 @@
     </header>
 
     <div id="content">
-
-      <!--LETS WRITE BULLSHIT-->
-      
+      <a href="/arnaud.php" style="float:left;">Page de batarr</a>
+      <a href="/guillaume.php" style="float:right;"> Page de swaggy</a>
     </div>
 
     <footer>
