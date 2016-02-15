@@ -6,6 +6,7 @@
 
 body {
   overflow: hidden;
+  font-family: comic sans ms;
 }
 
 .content a{
@@ -72,4 +73,5 @@ body {
   position: absolute;
   z-index: 9999;
   text-align: center;
+  pointer-events: none;
 }

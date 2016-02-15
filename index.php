@@ -11,7 +11,7 @@
 
     </header>
 
-    <video src="Media/VideoDeOuf.mp4" autoplay class="bg-vid" loop="true"></video>
+    <video src="Media/VideoDeOuf.mp4" autoplay class="bg-vid" loop="true" preload="true"></video>
 
     <div class="content">
       <a href="arnaud" style="float:left;">Page de ouf :o</a>
@@ -24,12 +24,13 @@
       document.onmousemove = trackmouse;
 
       function trackmouse(e) {
-        var test = document.getElementById('lol')
+        var test = document.getElementById('lol');
         width = test.offsetWidth;
         height = test.offsetHeight;
         test.style.top = (e.clientY-(height/2)).toString()+"px";
         test.style.left = (e.clientX-(width/2)).toString()+"px";
       }
+
     </script>
   </body>
 </html>
