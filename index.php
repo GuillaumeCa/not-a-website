@@ -14,10 +14,9 @@
 
     <h1>not a website :x</h1>
     <div class="content">
-      <ul>
-        <li><a href="arnaud" style="float:left;">Page de batarr</a></li>
-        <li><a href="guillaume" style="float:right;"> Page de swaggy</a></li>
-      </ul>
+        <a href="arnaud" style="float:left;">Page de batarr</a>
+        <a href="guillaume" style="float:right;"> Page de swaggy</a>
+
     </div>
 
     <footer>
