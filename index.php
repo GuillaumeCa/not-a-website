@@ -13,7 +13,7 @@
 
     </header>
 
-    <video src="Media/VideoDeOuf.mp4" autoplay class="bg-vid"></video>
+    <video src="Media/VideoDeOuf.mp4" autoplay class="bg-vid" loop></video>
 
     <div class="content">
       <a href="arnaud" style="float:left;">Page de ouf :o</a>
