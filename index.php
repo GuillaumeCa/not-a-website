@@ -24,9 +24,11 @@
       document.onmousemove = trackmouse;
 
       function trackmouse(e) {
-        var test = document.getElementById('lol');
-        test.style.top = e.clientY.toString()+"px";
-        test.style.left = e.clientX.toString()+"px";
+        var test = document.getElementById('lol')
+        width = test.offsetWidth;
+        height = test.offsetHeight;
+        test.style.top = (e.clientY-(height/2)).toString()+"px";
+        test.style.left = (e.clientX-(width/2)).toString()+"px";
       }
     </script>
   </body>

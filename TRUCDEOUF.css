@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  overflow: hidden;
+}
+
 .content a{
   display:inline-block;
   font-size:50px;
@@ -66,4 +71,5 @@
   color: white;
   position: absolute;
   z-index: 9999;
+  text-align: center;
 }
