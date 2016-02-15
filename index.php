@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Not a Website at all :x</title>
+    <link rel="stylesheet" href="TRUCDEOUF.css"/>
+
   </head>
   <body>
 
