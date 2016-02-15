@@ -7,10 +7,9 @@
 
   </head>
   <body>
+    <video src="lien de la vidéo :P" autoplay class="bg-vid">
 
-    <header>
-
-    </header>
+    </video>
     <h1>not a website :x</h1>
 
     <div class="content">
@@ -19,9 +18,6 @@
       <p> akzrjbazojrazr</p>
 
     </div>
-
-    <footer>
-    </footer>
 
   </body>
 </html>
