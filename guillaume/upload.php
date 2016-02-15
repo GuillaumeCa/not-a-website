@@ -38,11 +38,10 @@ if ($_FILES["upload-file"]["size"] > 5000000) {
 function upload($file, $path)
 {
   if (move_uploaded_file($file, $path)) {
-    echo "The file ". basename( $_FILES["upload-file"]["name"]). " has been uploaded.";
+    echo "The file ". basename($_FILES["upload-file"]["name"]). " has been uploaded.";
   } else {
     echo "Sorry, there was an error uploading your file.";
   }
-
 }
 
 
