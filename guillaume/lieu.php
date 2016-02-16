@@ -6,7 +6,7 @@
   <title>Recherche lieu</title>
 </head>
 <body>
-  <h1>recherche lieu avec completion AJAX</h1>
+  <h1>Recherche villes en France</h1>
   <div class="search">
     <input id="search" type="text" name="search" value="" onkeyup="getresults(this.value)" autocomplete="off" onfocus="showsearch()" spellcheck="false">
     <p id="results">
