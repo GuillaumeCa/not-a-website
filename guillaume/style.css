@@ -42,3 +42,8 @@ h1 {
 .search p.visible {
   display: block;
 }
+
+.search li:hover {
+  background: rgb(254, 219, 98);
+  cursor: pointer;
+}

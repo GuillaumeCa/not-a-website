@@ -8,15 +8,15 @@
 <body>
   <h1>recherche lieu avec completion AJAX</h1>
   <div class="search">
-    <input id="search" type="text" name="search" value="" onkeyup="getresults(this.value)" autocomplete="off" onclick="dispsearch()" onblur="dispsearch()">
+    <input id="search" type="text" name="search" value="" onkeyup="getresults(this.value)" autocomplete="off" onfocus="showsearch()" spellcheck="false">
     <p id="results">
-
+      taper pour rechercher...
     </p>
   </div>
   <script>
   function getresults(str) {
     if (str.length == 0) {
-      document.getElementById("results").innerHTML = "";
+      document.getElementById("results").innerHTML = "taper pour rechercher...";
       document.getElementById("results").visible = "false";
       return;
     } else {
@@ -35,10 +35,21 @@
   function get(str) {
     document.getElementById('search').value = str;
   }
-  function dispsearch(e) {
+  function showsearch() {
     var search = document.getElementById('results');
-    search.classList.toggle('visible');
+    search.classList.add('visible');
   }
+
+  function hidesearch(e) {
+    var search = document.getElementById('search');
+    var results = document.getElementById('results');
+    if ( e.target != search && e.target != results ) {
+      results.classList.remove('visible');
+      console.log("remove");
+    }
+  }
+
+  document.onclick = hidesearch;
   </script>
 </body>
 </html>

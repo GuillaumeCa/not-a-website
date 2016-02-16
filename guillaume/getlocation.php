@@ -15,7 +15,9 @@ $text = $_GET['l'];
 
 $sql = "SELECT ville_nom_reel as ville, ville_departement as dep FROM villes WHERE ville_nom_reel LIKE '%$text%' LIMIT 10";
 $result = mysqli_query($co, $sql);
-
+if (mysqli_num_rows($result) == 0) {
+  echo "pas de résultats";
+}
  ?>
 <ul>
 <?php
