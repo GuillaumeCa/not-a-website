@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Helvetica;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.search {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.search input {
+  width: 100%;
+  font-size: 30px;
+  padding: 5px;
+  outline: none;
+}
+
+.search p {
+  padding: 7px;
+  width: 100%;
+  display: none;
+  background: beige;
+}
+
+.search ul {
+  list-style: none;
+}
+
+.search li {
+  padding: 5px;
+}
+
+.search p.visible {
+  display: block;
+}

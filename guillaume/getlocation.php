@@ -21,7 +21,7 @@ $result = mysqli_query($co, $sql);
 <?php
 while ($row = mysqli_fetch_assoc($result)) {
   ?>
-    <li><?php echo $row['dep']." ".$row['ville'] ?></li>
+    <li onclick="get(this.innerHTML)"><?php echo $row['dep']." ".$row['ville'] ?></li>
   <?php
 }
 ?>
