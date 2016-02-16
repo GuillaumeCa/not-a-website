@@ -9,7 +9,7 @@
       <input type="file" name="upload-file">
       <input type="submit" name="submit" value="Upload Image">
     </form>
-
+    <a href="lieu.php">recherche lieu</a>
     <?php
     if (isset($_GET['image'])) {
       $image = $_GET['image'];
