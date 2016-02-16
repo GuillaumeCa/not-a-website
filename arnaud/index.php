@@ -60,8 +60,6 @@
         </aside>
       </nav>
 
-      <iframe src="SliderFade/SliderFade.php" width="100%" height="500px"></iframe>
-      <iframe src="SliderSlide/SliderSlide.php" width="100%" height="500px"></iframe>
       <script src="PopUp.js"></script>
 
       <!--Footer de la page-->
