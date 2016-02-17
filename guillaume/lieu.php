@@ -8,7 +8,7 @@
 <body>
   <h1>Recherche villes en France</h1>
   <div class="search">
-    <input id="search" type="text" name="search" value="" onkeyup="getresults(this.value)" autocomplete="off" onfocus="showsearch()" spellcheck="false">
+    <input id="search" type="text" name="search" value="" onkeyup="getresults(this.value, event); out(event)" autocomplete="off" onfocus="showsearch()" spellcheck="false">
     <p id="results">
       taper pour rechercher...
     </p>

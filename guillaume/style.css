@@ -43,7 +43,7 @@ h1 {
   display: block;
 }
 
-.search li:hover {
+.search li:hover, .search li.selected {
   background: rgb(254, 219, 98);
   cursor: pointer;
 }
