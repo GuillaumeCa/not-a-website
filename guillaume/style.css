@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Helvetica;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.search {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.search input {
+  width: 100%;
+  font-size: 30px;
+  padding: 5px;
+  outline: none;
+}
+
+.search p {
+  padding: 7px;
+  width: 100%;
+  display: none;
+  background: beige;
+}
+
+.search ul {
+  list-style: none;
+}
+
+.search li {
+  padding: 5px;
+}
+
+.search p.visible {
+  display: block;
+}
+
+.search li:hover, .search li.selected {
+  background: rgb(254, 219, 98);
+  cursor: pointer;
+}
+
+.search-advanced {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.search-advanced .input {
+  border: grey solid 1px;
+  padding: 10px;
+  cursor: text;
+}
+
+.search-advanced ul {
+  list-style: none;
+}
+
+.search-advanced .input li{
+  display: inline-block;
+}
+
+.input textarea {
+  -webkit-appearance: none;
+  border: none;
+  resize: none;
+  height: auto;
+  width: auto;
+  min-width: 10px;
+  font-size: 2em;
+  outline: none;
+  display: inline-block;
+  overflow-x: auto;
+  overflow-y: hidden;
+  vertical-align: middle;
+}
+
+.search-advanced li .block {
+  background: grey;
+  color: white;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: .5em 10px;
+  margin: 0 5px;
+}
+
+div.block.sport {
+  background: lightblue;
+}
+
+div.block.lieu {
+  background: lightgreen;
+}

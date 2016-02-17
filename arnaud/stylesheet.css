@@ -1,0 +1,323 @@
+/*GROSSES SECTIONS*/
+*{
+  margin:0;
+  padding: 0;
+  border: 0;
+  box-sizing:border-box;
+}
+
+body{
+  min-height: 666px;
+}
+
+header,
+section,
+aside,
+footer {
+  margin: 0 0 24px 0;
+}
+
+section {
+  float: left;
+  width: 65%;
+  /*margin-left:30px;*/
+}
+
+aside {
+  float: right;
+  width: 35%;
+  /*margin-right:20px;*/
+}
+
+footer{
+  background-color:#938a8a;
+  width:100%;
+  bottom: 0;
+  height: 40px;
+  clear: both;
+  margin-bottom: 0;
+}
+
+#hautdepage{
+  background-color:rgb(182, 232, 238);
+}
+
+#content{
+  position: relative;
+}
+
+
+
+ /*MENU*/
+.menu li{
+  display:inline-block;
+  font-size: 15px;
+  margin:5px;
+  color:red;
+  font-family: Arial;
+  font-size:20px;
+}
+
+.menu {
+  display:inline-block;
+  width: 70%;
+  font-size: 0;
+  text-align: justify;
+}
+
+.menu:after{
+  content:"";
+  width: 100%;
+  display:inline-block;
+  }
+
+/*Contenu photo accueil*/
+.div1{ /* Division Sport*/
+  position:relative;
+  width:100%;
+  height:450px;
+  display: inline-block;
+  background-color:black;
+  opacity:1;
+  overflow: hidden;
+}
+
+.div3{ /* Division Forum + Aide*/
+  position:relative;
+  width:50%;
+  height:150px;
+  display: inline-block;
+  background-color:black;
+  opacity:1;
+  overflow: hidden;
+}
+
+.img1{ /* Photo Sport*/
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  z-index:1;
+  transition:all 0.8s ease;
+}
+
+.img2{ /* Image forum et Aide*/
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  z-index:1;
+  transition:all 0.8s ease;
+}
+
+.img3{ /*Image Chintoc*/
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  z-index:1;
+}
+
+.div1 span{ /*Text Sport**/
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  padding: 205px 0; /*centre verticalement*/
+  text-align: center; /*centre au milieu*/
+  z-index:2;
+  overflow: hidden;
+  cursor:pointer;
+}
+
+.div1 span:hover + .img1{
+  filter:blur(10px);
+    -webkit-filter:blur(10px);
+}
+
+.div3 span{ /* ATTENTION DIV2 UTILISEE PLUS BAS!! Text forum + aide*/
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  padding: 75px 0;
+  text-align: center;
+  z-index:2;
+  overflow: hidden;
+  cursor:pointer;
+}
+
+.div3 span:hover + .img2{
+  filter:blur(10px);
+    -webkit-filter:blur(3px);
+  /*EFFET ZOOM + GRISE
+  transform:scale(1.5);
+  filter:brightness(0.5);
+    -webkit-filter:brightness(0.5);*/
+}
+
+
+
+/* PARTIE POP UP*/
+
+.popup{
+  visibility:hidden;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  z-index:4;
+  background-color: rgba(0, 0, 0, 0);
+  transition:all 0.4s linear;
+}
+
+.popup h1{
+  font-size:90px;
+}
+
+.division1{
+  margin:5% auto;
+  width:80%;
+  height:80%;
+  box-shadow: black 0 0 10px;
+  overflow:scroll;
+  position: static;
+  z-index: 9999;
+  background-color:rgba(98, 97, 97, 0.9);
+  transition:all 0.4s linear;
+  transform: rotate(80deg)scale(0.0000001);
+  text-align: center;
+}
+
+
+.visible{
+  visibility:visible;
+  background-color: rgba(0, 0, 0, 0.9); /*Noircit les extérieurs du pop up*/
+}
+
+.visible2{
+  visibility:visible;
+  transform: rotate(0deg)scale(1);
+}
+
+.division1 div{
+  display:inline-block;
+}
+
+.boxes{
+  width:19%;
+  height:35%;
+  margin:3% 2%;
+  background-color:red;
+  cursor:pointer;
+  transition: all 0.2s ease;
+}
+
+.boxes:hover{
+  transform:scale(1.05);
+}
+
+
+/*Section aside*/
+.div2{
+  height:600px;
+  filter: opacity(80%);
+  -webkit-filter: opacity(80%);
+  position:relative;
+}
+
+.div2bis{
+  width:100%;
+  position:absolute;
+  height:600px;
+  filter: opacity(80%);
+    -webkit-filter: opacity(80%);
+  display:inline-block;
+  z-index:2;
+}
+
+.Haut1{
+  margin:5% 10% 2% 10%;
+  display:inline-block;
+  background-color: red;
+  width: 80%;
+  height: 70%;
+  z-index: 2;
+}
+
+.Bas1{
+  margin:2% 10% 5%;
+  display:inline-block;
+  background-color: black;
+  width: 80%;
+  height: 20%;
+  z-index: 2;
+}
+
+.ligne1 {
+  height: 450px;
+}
+
+.ligne2{
+  height: 150px;
+}
+
+
+  /*Fonctionnel*/
+.centre{
+  text-align:center;
+}
+
+.memeligne{
+  display: block;
+  vertical-align:middle;
+}
+
+.usualbackground{
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Police1{
+  color:red;
+  font-size:60px;
+}
+
+.Police2{
+  color:green;
+  font-size:30px;
+}
+
+/* Inscription */
+fieldset {
+  margin: 0.5em;
+  padding: 0.5em;
+  width:90%;
+  margin:0 auto;
+}
+
+fieldset input{
+  border: 1px black solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+/*Connection*/
+.bloc1 {
+  width:50%;
+  margin:0 5%;
+  float:left;
+  padding:10px;
+}
+
+.bloc2 {
+  width:30%;
+  margin-right:10%;
+  margin-top:5%;
+  margin-bottom:5%;
+  float:right;
+  padding:10px;
+}
+
+.encadrement{
+  border:1px solid black;
+  margin:40px;
+  border-radius:10px;
+}
