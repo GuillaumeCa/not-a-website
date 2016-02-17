@@ -44,13 +44,11 @@ function upload($file, $path)
   }
 }
 
-
 // Check if $uploadOk is set to 0 by an error
 if ($uploadOk == 0) {
     echo "Sorry, your file was not uploaded.";
-
 // if everything is ok, try to upload file
-} else {
+}else{
     upload($_FILES["upload-file"]["tmp_name"], $fileurl);
     header("Location: index.php?image=$fileurl");
 }
