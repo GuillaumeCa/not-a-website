@@ -23,7 +23,7 @@ if (mysqli_num_rows($result) == 0) {
 <?php
 while ($row = mysqli_fetch_assoc($result)) {
   ?>
-    <li onclick="get(this.innerHTML)"><?php echo $row['dep']." ".$row['ville'] ?></li>
+    <li onclick="get(this.innerHTML)"><?php echo $row['ville'] ?></li>
   <?php
 }
 ?>

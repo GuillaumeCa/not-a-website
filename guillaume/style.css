@@ -47,3 +47,54 @@ h1 {
   background: rgb(254, 219, 98);
   cursor: pointer;
 }
+
+.search-advanced {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.search-advanced .input {
+  border: grey solid 1px;
+  padding: 10px;
+  cursor: text;
+}
+
+.search-advanced ul {
+  list-style: none;
+}
+
+.search-advanced .input li{
+  display: inline-block;
+}
+
+.input textarea {
+  -webkit-appearance: none;
+  border: none;
+  resize: none;
+  height: auto;
+  width: auto;
+  min-width: 10px;
+  font-size: 2em;
+  outline: none;
+  display: inline-block;
+  overflow-x: auto;
+  overflow-y: hidden;
+  vertical-align: middle;
+}
+
+.search-advanced li .block {
+  background: grey;
+  color: white;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: .5em 10px;
+  margin: 0 5px;
+}
+
+div.block.sport {
+  background: lightblue;
+}
+
+div.block.lieu {
+  background: lightgreen;
+}
