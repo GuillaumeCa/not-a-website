@@ -11,6 +11,7 @@
     </form>
     <a href="rechercheville">recherche lieu</a>
     <a href="rechercheav">recherche avancée</a>
+    <a href="calendar.php">calendrier</a>
     <?php
     if (isset($_GET['image'])) {
       $image = $_GET['image'];
