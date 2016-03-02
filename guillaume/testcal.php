@@ -37,13 +37,12 @@
 
     $co = mysqli_connect($servername, $username, $password, $dbname) or die("pas de base de donnée :(");
 
-    $sql = "SELECT groupe.titre, planning.date, planning.activité, planning.description AS description FROM planning JOIN groupe ON groupe.id = planning.id_groupe";
+    $sql = "SELECT groupe.titre, planning.date, planning.activité, planning.description AS description, dstart, dend FROM planning JOIN groupe ON groupe.id = planning.id_groupe";
     $result = mysqli_query($co, $sql);
     $events = [];
     while ($row = mysqli_fetch_assoc($result)) {
-      $events[$row['titre']][] = [$row['date'], $row['activité'], $row['description']];
+      $events[$row['titre']][] = [$row['date'], $row['activité'], $row['description'], $row['dstart'], $row['dend']];
     }
-
     ?>
 
     <?php Calendar(12, $events); ?>

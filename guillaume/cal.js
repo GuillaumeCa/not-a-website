@@ -43,7 +43,7 @@ function showModal(e) {
 }
 
 function hideModal(e) {
-  e.parentElement.classList.remove('show');
+  e.parentElement.parentElement.classList.remove('show');
 }
 
 showCalendar(month);
