@@ -9,7 +9,6 @@
   <body>
     <h1>Le calendrier du turfu</h1>
 
-
     <div class="calendrier">
       <div class="sidebar">
         <label class="green">

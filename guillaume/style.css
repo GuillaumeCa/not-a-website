@@ -1,4 +1,4 @@
-* {
+*:not(input) {
   margin: 0;
   padding: 0;
 }
@@ -133,16 +133,22 @@ div.block.lieu {
   padding: 5px 10px;
   font-size: 20px;
   cursor: pointer;
+  background: transparent;
+  border: 0;
+  font-family: inherit;
 }
 
 .nav:hover {
-  background: lightgrey;
   border-radius: 5px;
+  color: red;
 }
 
 .cal > h2 {
   display: inline-block;
   margin: 20px auto;
+  color: red;
+  font-weight: 200;
+  font-size: 2.5em;
 }
 
 .selected {
@@ -165,6 +171,7 @@ table tbody td {
   border: solid 1px grey;
   padding: 5px;
   vertical-align: top;
+  position: relative;
 }
 
 table thead td {
@@ -194,6 +201,7 @@ table td h2 {
 
 .sidebar > label {
   padding: 5px;
+  padding-left: 8px;
   color: white;
   display: block;
   margin: 5px;
@@ -212,6 +220,76 @@ table td h2 {
   background: green;
 }
 
+td span {
+  cursor: pointer;
+}
+
 span.event.hidden {
   display: none;
+}
+
+.today {
+  color: red;
+  font-weight: 400;
+}
+
+.event-list {
+  height: 70px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+}
+.event-list:hover {
+  overflow-y: auto;
+}
+
+.event-list::-webkit-scrollbar {
+  width: 1px;
+  position: absolute;
+}
+
+.event-list::-webkit-scrollbar-thumb {
+  background: lightgrey;
+}
+
+td .modal {
+  position: absolute;
+  width: 250px;
+  background: white;
+  color: black;
+  min-height: 300px;
+  box-shadow: 0 3px 30px grey;
+  display: none;
+  text-align: left;
+  padding: 10px;
+  z-index: 10;
+  top: 100%;
+  left: 0;
+}
+
+.modal h2 {
+  font-size: 2em;
+}
+
+.modal p {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+td div.modal.show {
+  display: block;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.modal button {
+  float: right;
+  font-size: 1em;
+  cursor: pointer;
+}
+.modal button:hover {
+  color: inherit;
 }
