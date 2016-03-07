@@ -109,11 +109,11 @@ function generateCalendar($range, $events)
 
 function getColor($events, $colorCount)
 {
-  $colorlist = [20,50,90,120,160,200,220,260];
+  $colorlist = [0,30,50,80,140,170,200,220,260];
   $numbCal = count($events);
   $fadelvl = floor($colorCount/count($colorlist));
   $color = $colorlist[$colorCount - $fadelvl * count($colorlist)];
-  $fadelvl = 50-$fadelvl*5;
+  $fadelvl = 50-$fadelvl*8;
   $GLOBALS['colorCount']++;
   return "hsl(".$color.", 100%, ".$fadelvl."%)";
 }
