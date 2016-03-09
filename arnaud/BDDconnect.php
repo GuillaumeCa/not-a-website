@@ -12,3 +12,4 @@ $dbname = "APP-test";
 $co = mysqli_connect($servername, $username, $password, $dbname);
 
 $text = $_GET['l'];
+?>

@@ -8,6 +8,8 @@
 
 
     <body>
+      <?php include("BDDconnect.php"); ?>
+      <?php include("function.php"); ?>
       <!--Menu en haut de la page-->
       <?php include("header.php"); ?>
 
@@ -23,7 +25,7 @@
         </div>
 
         <div class="Inscription">
-          test
+          <?php include("inscription.php"); ?>
         </div>
       </div>
 
