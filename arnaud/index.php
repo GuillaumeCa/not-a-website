@@ -11,8 +11,14 @@
       <!--Menu en haut de la page-->
       <?php include("header.php"); ?>
 
-      <div class="">
+      <div class="blockprincipal">
+        <div class="Connection">
 
+        </div>
+        
+        <div class="Inscription">
+
+        </div>
       </div>
 
       <!--Footer de la page-->

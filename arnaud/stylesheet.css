@@ -41,9 +41,31 @@ footer {
 }
 
 /*FOOTER*/
+footer{
+  background-color:rgb(250, 255, 227);
+  padding:20px 0;
+}
+
 footer li{
   text-decoration:none;
   display:inline-block;
   border:1px black solid;
-  border-collapse: collapse;
+  padding:5px;
+  background-color: rgb(143, 178, 255);
+}
+
+footer ul{
+  display:inline-block;
+}
+
+.bloc1footer{
+  display:inline-block;
+  width:69%;
+  padding-left:5%;
+}
+
+.bloc2footer{
+  display:inline-block;
+  text-align:center;
+  width:30%;
 }
