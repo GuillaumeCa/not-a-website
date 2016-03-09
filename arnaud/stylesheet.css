@@ -69,3 +69,22 @@ footer ul{
   text-align:center;
   width:30%;
 }
+
+/* contenu */
+.blockprincipal{
+  width:90%;
+  margin:0 auto;
+  padding:20px;
+}
+
+.Connection{
+  display:inline-block;
+  width:48%;
+  float:left;
+}
+
+.Inscription{
+  display:inline-block;
+  width:48%;
+  float:right;
+}

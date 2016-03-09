@@ -11,13 +11,19 @@
       <!--Menu en haut de la page-->
       <?php include("header.php"); ?>
 
+      <!--Content-->
+      <div class="Blocktext">
+        <h1 style="text-align:center;">AD'DOC unique</h1>
+        <h3 style="text-align:center;">L'évalutation des risques "Pratiques adictives".</h3>
+      </div>
+
       <div class="blockprincipal">
         <div class="Connection">
-
+          test
         </div>
-        
-        <div class="Inscription">
 
+        <div class="Inscription">
+          test
         </div>
       </div>
 
