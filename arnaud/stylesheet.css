@@ -79,12 +79,26 @@ footer ul{
 
 .Connection{
   display:inline-block;
-  width:48%;
-  float:left;
+  width:49%;
 }
 
 .Inscription{
   display:inline-block;
-  width:48%;
-  float:right;
+  width:49%;
+}
+
+label{
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+fieldset input{
+  border:1px solid black;
+  padding:3px;
+  margin:1px auto;
+}
+
+input{
+  border:1px solid black;
 }

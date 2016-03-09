@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="stylesheet.css"/>
-        <title>MySporTeam</title>
+        <title>AD'DOC</title>
         <meta charset="utf-8" />
     </head>
 
@@ -29,9 +29,7 @@
         </div>
       </div>
 
-      <!--Footer de la page-->
-      <?php include("footer.php"); ?>
-
   </body>
-
+  <!--Footer de la page-->
+  <?php include("footer.php"); ?>
 </html>
