@@ -1,3 +1,8 @@
 <footer>
-  <p class="centre" style="padding:10px;">Tout droits réservés, mySporteam<span style="font-size:13px;"><sup>TM</sup></span>.</p>
+  <ul>
+   <li>Mentions légales</li>
+   <li>Politique de confidentialité</li>
+   <li>Condition d'utilisation</li>
+   <li>Contact</li>
+ </ul>
 </footer>
