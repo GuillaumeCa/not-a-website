@@ -30,12 +30,9 @@ if (empty($_POST['pseudo'])) // Si on la variable est vide, on peut considérer 
   	<p>Les champs précédés d un * sont obligatoires</p>
   	<p><input type="submit" value="S\'inscrire" /></p></form>
   </form>
-<?php;
-} //Fin de la partie formulaire
-?>
 <?php
-else //On est dans le cas traitement
-{
+
+}  else {
     $pseudo_erreur1 = NULL;
     $pseudo_erreur2 = NULL;
     $mdp_erreur = NULL;
@@ -47,4 +44,5 @@ else //On est dans le cas traitement
     $avatar_erreur1 = NULL;
     $avatar_erreur2 = NULL;
     $avatar_erreur3 = NULL;
+}
 ?>
