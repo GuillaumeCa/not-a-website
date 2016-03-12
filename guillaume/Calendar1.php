@@ -18,6 +18,7 @@ function daysInMonth($date)
 
 function Calendar($range = 12, $events)
 {
+  $GLOBALS['colorCount']= 0;
   echo '<div class="calendrier">';
   if (count($events) > 1) {
     generateSidebar($events);
@@ -87,7 +88,7 @@ function generateCalendar($range, $events)
           </td>
         <?php else: ?>
           <td>
-            <h2 class="<?php echo $today ?>"><?php echo $d < $days+1 ? $day : null; ?></h2>
+            <h2 class="<?php echo $today ?>"><?php echo $i < $days+1 ? $day : null; ?></h2>
             <div class="event-list">
               <?php displayEvents($day, $strdate, $events); ?>
             </div>
