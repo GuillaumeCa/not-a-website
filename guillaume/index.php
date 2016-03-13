@@ -11,6 +11,8 @@
     </form>
     <a href="rechercheville">recherche lieu</a>
     <a href="rechercheav">recherche avancée</a>
+    <a href="calendar.php">calendrier</a>
+    <a href="testcal.php">calendrier avancé</a>
     <?php
     if (isset($_GET['image'])) {
       $image = $_GET['image'];
@@ -19,6 +21,9 @@
     <?php
   }
 ?>
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
   </body>
 </html>
