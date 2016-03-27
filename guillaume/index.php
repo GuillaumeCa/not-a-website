@@ -13,6 +13,7 @@
     <a href="rechercheav">recherche avancée</a>
     <a href="calendar.php">calendrier</a>
     <a href="testcal.php">calendrier avancé</a>
+    <a href="notif.php">Notifications</a>
     <?php
     if (isset($_GET['image'])) {
       $image = $_GET['image'];
