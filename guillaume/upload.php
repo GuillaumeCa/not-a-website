@@ -38,20 +38,17 @@ if ($_FILES["upload-file"]["size"] > 5000000) {
 function upload($file, $path)
 {
   if (move_uploaded_file($file, $path)) {
-    echo "The file ". basename( $_FILES["upload-file"]["name"]). " has been uploaded.";
+    echo "The file ". basename($_FILES["upload-file"]["name"]). " has been uploaded.";
   } else {
     echo "Sorry, there was an error uploading your file.";
   }
-
 }
-
 
 // Check if $uploadOk is set to 0 by an error
 if ($uploadOk == 0) {
     echo "Sorry, your file was not uploaded.";
-
 // if everything is ok, try to upload file
-} else {
+}else{
     upload($_FILES["upload-file"]["tmp_name"], $fileurl);
     header("Location: index.php?image=$fileurl");
 }
