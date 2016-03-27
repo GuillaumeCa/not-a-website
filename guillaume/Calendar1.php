@@ -88,7 +88,7 @@ function generateCalendar($range, $events)
           </td>
         <?php else: ?>
           <td>
-            <h2 class="<?php echo $today ?>"><?php echo $i < $days+1 ? $day : null; ?></h2>
+            <h2 class="<?php echo $today ?>"><?php echo $i < $days+$decalage+1 ? $day : null; ?></h2>
             <div class="event-list">
               <?php displayEvents($day, $strdate, $events); ?>
             </div>

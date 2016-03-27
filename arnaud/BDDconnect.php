@@ -7,7 +7,7 @@ $username = "root";
 // MDP utilisateur
 $password = "";
 // Nom de la base de donnée
-$dbname = "APP-test";
+$dbname = "Dynamo";
 
 $co = mysqli_connect($servername, $username, $password, $dbname);
 

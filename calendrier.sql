@@ -6,7 +6,7 @@
 # https://github.com/sequelpro/sequelpro
 #
 # Hôte: localhost (MySQL 5.6.27)
-# Base de données: APP-test
+# Base de données: Dynamo
 # Temps de génération: 2016-03-02 21:28:48 +0000
 # ************************************************************
 
