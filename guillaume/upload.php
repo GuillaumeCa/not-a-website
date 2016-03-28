@@ -50,5 +50,5 @@ if ($uploadOk == 0) {
 // if everything is ok, try to upload file
 }else{
     upload($_FILES["upload-file"]["tmp_name"], $fileurl);
-    header("Location: index.php?image=$fileurl");
+    header("Location: uploadfile.php");
 }
