@@ -1,0 +1,125 @@
+html {
+  font-family: Helvetica;
+}
+body {
+  margin: 0;
+  background: whitesmoke;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.messagerie {
+  padding: 15px;
+}
+
+/*.received::before {
+  content: 'people: ';
+  font-weight: bold;
+}*/
+/*.sent::before {
+  content: 'me: ';
+  font-weight: bold;
+}*/
+
+.messages-area > div {
+  margin-bottom: 15px;
+}
+
+.received {
+  text-align: left;
+}
+
+.sent {
+  text-align: right;
+}
+
+.content {
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+  vertical-align: top;
+  text-align: left;
+  width: 200px;
+  min-height: 60px;
+  border-radius: 5px;
+}
+.received .content {
+  background: rgb(45, 160, 255);
+  color: white;
+  margin-left: 10px;
+}
+.sent .content {
+  margin-right: 10px;
+  background: rgb(222, 222, 222);
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background: red;
+  color: white;
+  text-align: center;
+}
+
+.messages-area {
+  height: 600px;
+  overflow: auto;
+  border: white solid 1px;
+  padding: 20px;
+  background: white;
+}
+
+.messages-area p {
+  margin-bottom: 0;
+}
+
+.connexion {
+  padding: 15px;
+}
+.connexion input {
+  border: 0;
+  font-size: 2em;
+  outline: none;
+  display: block;
+  width: 100%;
+  background: transparent;
+}
+
+.messages-input {
+  display: block;
+}
+
+.messages-input input {
+  width: calc(100% - 85px);
+  margin: 0;
+  border: 0;
+  height: 40px;
+  outline: none;
+  padding: 5px;
+  font-size: 1em;
+  border: grey solid 1px;
+}
+
+.messages-input button {
+  border: 0;
+  margin: 0;
+  background: rgb(6, 95, 212);
+  color: white;
+  font-size: 1em;
+  width: 80px;
+  height: 40px;
+  padding: 0 12px;
+  cursor: pointer;
+}
+
+.messages-input button:hover {
+  background: rgb(0, 78, 180);
+}
