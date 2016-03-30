@@ -44,18 +44,18 @@ h1 {
   margin: 0;
   vertical-align: top;
   text-align: left;
-  width: 200px;
-  min-height: 60px;
+  max-width: 60%;
   border-radius: 5px;
+  word-break: break-all;
 }
 .received .content {
-  background: rgb(45, 160, 255);
-  color: white;
+  background: rgb(222, 222, 222);
   margin-left: 10px;
 }
 .sent .content {
   margin-right: 10px;
-  background: rgb(222, 222, 222);
+  background: rgb(45, 160, 255);
+  color: white;
 }
 
 .icon {
@@ -64,9 +64,14 @@ h1 {
   line-height: 50px;
   width: 50px;
   border-radius: 50px;
-  background: red;
+  background: grey;
   color: white;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.received .icon {
+  font-size: 0.6em;
 }
 
 .messages-area {
